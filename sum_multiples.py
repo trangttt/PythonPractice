@@ -7,8 +7,10 @@ def find_multiples(n):
     return set
 
 def main(n):
+    import ipdb; ipdb.set_trace()
     ret = find_multiples(n)
     print ret
+    import ipdb; ipdb.set_trace()
     print sum(ret)
 
 

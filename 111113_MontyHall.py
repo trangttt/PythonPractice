@@ -1,26 +1,38 @@
 import random
 import copy
 
-def initialize():
-    '''Initialize game
-    '''
-    car = random.randint(0,2)
-    l = []
-    for i in range(3):
-        if (i == car) : l.append('c')
-        else : l.append('g')
-    return l
 
-def choice():
-    '''Choose a door
-    '''
-    return random.randint(3)
+
+_DOOR = '''\
+xxxx  
+xxxx  
+xxxx  
+xxxx  
+'''
+
+
+_OPENED_DOOR = '''\
+xxxx  
+x  x  
+x  x  
+xxxx  
+'''
+
+def gameSimulation():
+    n = raw_input("Input a number:")
+    m = n
+    print _DOOR
+    
+def testing():
+    n = raw_input("Input a number :")
+:
 
 def main():
     n = int(raw_input("Input a number:"))
     m = n
     s1 = 0
     s2 = 0
+    r
     while (n>0):
         car = random.randint(1,3)
         pick = random.randint(1,3)
@@ -33,4 +45,5 @@ def main():
     print "Tactic 2: {0:3.2%} winning chance".format(float(s2/m))
         
 if  __name__ == "__main__" :
-    main()
+    #imain()
+    gameSimulation()

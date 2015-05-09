@@ -10,7 +10,7 @@ def main(n):
     prime = range(2,n)
     for i in base :
         prime = filter(lambda x: x==i or x%i, prime)
-    
+    print prime
     
 
 
