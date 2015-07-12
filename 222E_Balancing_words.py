@@ -1,7 +1,5 @@
 #!/bin/python3
 
-#words = input().splitlines()
-
 words= ['CONSUBSTANTIATION','WRONGHEADED','UNINTELLIGIBILITY']
 
 ALPHABET_INDEX = dict((c, i) for i, c in enumerate('ABCDEFGHIJKLMNOPQRSTUVWXYZ',1))
@@ -17,4 +15,4 @@ def balancing_word(word):
     return print(word, 'DOES NOT BALANCE')
 
 
-for word in words: balancing_word(word)
+for w in words: balancing_word(w)
