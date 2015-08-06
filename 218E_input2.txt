@@ -1,0 +1,6 @@
+addItem('Take a shower');
+addItem('Go to work');
+viewList();
+addItem('Buy a new phone');
+deleteItem('Go to work');
+viewList();

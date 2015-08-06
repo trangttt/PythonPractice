@@ -1,0 +1,3 @@
+addItem('Take a shower');
+addItem('Go to work');
+viewList();

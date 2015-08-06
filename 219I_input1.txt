@@ -1,0 +1,11 @@
+addItem('Create Sine Waves in C', 'Music', 'Programming'); 
+addItem('A pixel is not a pixel is not a pixel', 'Programming');
+addItem('The Scheme Programming Language', 'Programming');
+addItem('Memory In C', 'Programming');
+addItem('Haskell School of Music', 'Music', 'Programming');
+addItem('Algorithmic Symphonies from one line of code', 'Music', 'Programming');
+addItem('Modes in Folk Music', 'Music');
+addItem('The use of the Melodic Minor Scale', 'Music');
+viewList('Programming');
+viewList('Music');
+viewList('Music', 'Programming');
