@@ -2,10 +2,10 @@ import sys
 import collections
 import re
 
+
 probs = open(sys.argv[1]).readlines()
 
 Token = collections.namedtuple('Token', ['typ', 'value', 'pos'])
-
 
 class Node():
     def __init__(self, rootValue):

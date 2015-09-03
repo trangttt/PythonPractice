@@ -180,12 +180,12 @@ class Parser:
 
 
 class TestDeMorgan(unittest.TestCase):
-    def lexer_test(self, expr, result):
+    def lexer(self, expr, result):
         res = list(tokenize(expr))
         return self.assertEqual(res, result)
 
     def test_simple(self):
-        self.lexer_test('a', [Token('ID', 'a', 0)])
+        self.lexer('a', [Token('ID', 'a', 0)])
 
 
 

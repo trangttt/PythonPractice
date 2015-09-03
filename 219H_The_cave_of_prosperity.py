@@ -1,6 +1,6 @@
 #!/bin/python3
 import sys
-
+=`=jedi=0, =`=    (*_*name*_*, mode=None, buffering=None) =`=jedi=`=
 bar, nu, *nuggets = [float(i) for i in open(sys.argv[1]).read().splitlines()]
 
 
@@ -18,9 +18,6 @@ pos_nuggets = nuggets[int(nu/2):]
 
 pre_sum = calculate_subset_sum(pre_nuggets)
 pos_sum = sorted(calculate_subset_sum(pos_nuggets), key = lambda x: x[0])
-
-#print(pre_sum)
-#print(pos_sum)
 
 def quick_search(a, bar, s):
     if s >= bar: return
