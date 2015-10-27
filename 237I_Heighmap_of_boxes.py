@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-HW, *data = open('237I_input.txt').read().splitlines()
+HW, *data = open('237I_input2.txt').read().splitlines()
 H, W = [int(i) for i in HW.split(' ')]
 data = { (x,y): c for y, line in enumerate(data) for x, c in enumerate(list(line)) }
 
